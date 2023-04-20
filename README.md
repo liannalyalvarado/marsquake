@@ -1,2 +1,6 @@
-# marsquake
-Download and visualize Mars earthquake data
+# Marsquake - Python code for downloading and visualizing Mars seismic events in time and frequency domain. 
+
+Code by: Alvarado Liannaly (M.S Student, University of Houston), Munoz Andrew (Blue Bison Analytics), Suarez Stephanie (Ph.D Candite University of Houston), Tirado Sara (Ryder Scott), West Dorene (CPG Inc.) at the Hack-A-Thon - Spring Symposium of Geophysical Society of Houston. April 20th, 2023.
+
+In 2021, NASA's InSight (Interior Exploration using Seismic Investigations, Geodesy and Heat Transport) Spacecraft landed on Mars. One of the two science objectives of InSight is to detect seismic activity on the Red Planet using the seismometer called SEIS (Seismic Experiment for Interior Structure). The first marsquake ever detected was in April 2019 revealing that Mars is seismically active. Starting from September 2019, Mars’s seismic data has been released to the public, every three months, by the Marsquake Service (MQS), through the Mars Seismic Catalogues.  As today, the Incorporated Research Institutions for Seismology (IRIS) is the only institution that offers an online software for visualizing Mars seismic data its time domain. However, this data is not updated with the lateste seismic events. This open-source Python code allows the plotting the horizontal component of Mars event seismograms using SEIS raw data. This code also takes a step further and converts the seismic data to the frequency domain, applying a Fast Fourier Transform. 
+
